@@ -35,3 +35,10 @@ rm -f %{buildroot}%{_var}/www/drupal/modules/%{modname}/{*.txt,.gitignore}
 %files
 %{_var}/www/drupal/modules/%{modname}
 %doc README_FOR_DEVELOPERS.txt
+
+
+%changelog
+* Sat May 12 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 7.x.1.5-1
++ Revision: 798451
+- imported package drupal-seo_checker
+
